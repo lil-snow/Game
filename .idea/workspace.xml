@@ -4,25 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da92ce84-bb9c-42e0-b9d1-343681041402" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/assets/shaders/fragment.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/assets/shaders/vertex.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/assets/textures/jan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/core/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLBufferLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLIndexBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLShader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLTexture2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLVertexArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLVertexBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="da92ce84-bb9c-42e0-b9d1-343681041402" name="Changes" comment="Error Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/assets/shaders/light_frag.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/assets/shaders/light_vert.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/core/input/InputCallbacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/core/input/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/ColorRGB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/ColorRGBA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/obj/dim3/Box3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/obj/dim3/Camera3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/obj/dim3/Camera3Dv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/obj/dim3/GameObject3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/obj/dim3/GameObject3Dv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/obj/dim3/Model3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/obj/dim3/Plane3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/obj/dim3/Triangle3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/obj/dim3/Triangle3Dv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/utils/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/utils/Mathf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/EntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/assets/shaders/fragment.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/assets/shaders/fragment.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/assets/shaders/vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/res/assets/shaders/vertex.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/assets/textures/jan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/assets/textures/jan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/core/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/core/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLShader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLTexture2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lilsnow/game/gfx/gl/GLTexture2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,17 +92,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/snuit/IdeaProjects/Game",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/snuit/IdeaProjects/Game&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.lilsnow.game.obj.dim3" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="EntryPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lilsnow.game.EntryPoint" />
@@ -123,6 +137,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655909772830</updated>
     </task>
+    <task id="LOCAL-00001" summary="Error Commit">
+      <created>1657017360470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657017360470</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,5 +182,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Error Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error Commit" />
   </component>
 </project>

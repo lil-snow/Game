@@ -1,7 +1,10 @@
 package org.lilsnow.game.gfx.gl;
 
+import org.joml.Matrix4f;
+import org.joml.Vector3f;
 import org.joml.Vector4f;
 import org.lilsnow.game.Core;
+import org.lilsnow.game.gfx.ColorRGBA;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,7 +12,6 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 
 import static org.lwjgl.opengl.GL20.*;
-import static org.lwjgl.opengl.GL20.glDeleteShader;
 
 public class GLShader {
 
@@ -36,11 +38,29 @@ public class GLShader {
     public void set_uniform_4f(String name, Vector4f vector) {
         glUniform4f(get_uniform_loc(name), vector.x, vector.y, vector.z, vector.w);
     }
+    
+    public void set_uniform_4f(String name, ColorRGBA color) {
+        glUniform4f (get_uniform_loc (name), color.r, color.g, color.b, color.a);
+    }
 
     public void set_uniform_1i(String name, int value) {
         glUniform1i(get_uniform_loc(name), value);
     }
 
+    public void set_uniform_m4f(String name, Matrix4f matrix) {
+        float[] f = new float[16];
+        matrix.get (f);
+        glUniformMatrix4fv (get_uniform_loc (name), true, f);
+    }
+    
+    public void set_uniform_bool(String name, boolean bool) {
+        glUniform1i (get_uniform_loc (name), (bool) ? 1 : 0);
+    }
+    
+    public void set_uniform_3f(String name, Vector3f v) {
+        glUniform3f (get_uniform_loc (name), v.x, v.y, v.z);
+    }
+    
     public void delete() {
         glDeleteProgram(renderer_id);
     }
